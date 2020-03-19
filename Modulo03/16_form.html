@@ -1,0 +1,30 @@
+<!doctype html> 
+<!--Documentação HTML: informa ao agente de usuario a versão do html que deve ser
+    renderizada.
+    Post: Muitos dados e/ou Segurança;
+    Get: Poucos dados e/ou necessidade de Segurança;
+-->   
+
+<html lang="pt-br"> <!--Idioma português do Brasil-->
+    <head>
+        <title>Página de exemplo estrutura básica</title>
+        <meta charset="utf-8"> <!-- Tipo de codificação -->
+        <meta name="author" content="Daniel Collione">
+        <meta name="description" content="Propriedades de Formulário">
+        <meta name="keywords" content="html5, tecnologia, dev">
+    </head>
+    
+    <body>
+        <h1>Exemplo de Formaulário</h1>
+
+        <form action="http://google.com/search" method="GET" target="blank"> <!--enviando dados
+        para o servidor de busca do google pelo método GET
+        -->
+            <label for="txtbusca">Faça uma Busca no Google!</label>
+            <input type="text" name="q" id="txtbusca"> <!--cria um input do tipo texto-->
+            <input type="submit" value="ok"> <!--enviar-->
+
+        </form>
+        
+    </body>
+</html>

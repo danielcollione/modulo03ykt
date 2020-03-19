@@ -1,0 +1,37 @@
+<!doctype html> 
+<!--Documentação HTML: informa ao agente de usuario a versão do html que deve ser
+    renderizada
+    -https://www.fontsquirrel.com/ - fontes.   
+    .-->   
+
+<html lang="pt-br"> <!--Idioma português do Brasil-->
+    <head>
+        <title>Página de exemplo estrutura básica</title>
+        <meta charset="utf-8"> <!-- Tipo de codificação -->
+        <meta name="author" content="Daniel Collione">
+        <meta name="description" content="Font Face">
+        <meta name="keywords" content="html5, tecnologia, dev">
+
+        <style>
+
+            @font-face {
+                font-family: 'nadia';
+                src: url(fontes/nadia/nadia-serif.eot);
+                src: url(fontes/nadia/nadia-serif.woff) format('woff'),
+                    url(fontes/nadia/nadia-serif.ttf) format('truetype'),
+                    url(fontes/nadia/nadia-serif.svg) format('svg');
+            }
+
+            h1{
+                font-family: nadia, Arial, helvetica;
+            }
+
+
+        </style>
+
+    </head>
+    
+    <body>
+        <h1>Estrutura básica</h1>
+    </body>
+</html>
